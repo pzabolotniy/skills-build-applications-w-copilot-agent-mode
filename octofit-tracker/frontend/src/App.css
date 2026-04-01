@@ -1,0 +1,98 @@
+
+body {
+  background: linear-gradient(135deg, #e3f0ff 0%, #f9e6ff 100%);
+  color: #22223b;
+}
+
+.App {
+  text-align: center;
+  min-height: 100vh;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #3a86ff 0%, #8338ec 100%) !important;
+  box-shadow: 0 2px 8px rgba(58,134,255,0.1);
+}
+.navbar-brand, .navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.navbar-brand img {
+  height: 40px;
+  margin-right: 10px;
+}
+.navbar-nav .nav-link.active {
+  color: #ffbe0b !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #3a86ff;
+  font-weight: 700;
+}
+
+a, .App-link {
+  color: #8338ec;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+a:hover, .App-link:hover {
+  color: #ff006e;
+}
+
+.card {
+  border-radius: 1rem;
+  border: none;
+  box-shadow: 0 2px 12px rgba(58,134,255,0.08);
+}
+.card-header {
+  font-size: 1.25rem;
+  font-weight: 600;
+  background: linear-gradient(90deg, #3a86ff 0%, #8338ec 100%);
+  color: #fff !important;
+}
+
+.table {
+  background: #fff;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+.table thead {
+  background: #3a86ff;
+  color: #fff;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #f1f3fa;
+}
+.table-hover tbody tr:hover {
+  background-color: #e0c3fc;
+}
+
+.btn, .btn-primary, .btn-success, .btn-info, .btn-warning, .btn-secondary {
+  border-radius: 2rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  background: linear-gradient(90deg, #3a86ff 0%, #8338ec 100%);
+  border: none;
+  color: #fff;
+  transition: background 0.2s;
+}
+.btn:hover, .btn-primary:hover, .btn-success:hover, .btn-info:hover, .btn-warning:hover, .btn-secondary:hover {
+  background: linear-gradient(90deg, #8338ec 0%, #3a86ff 100%);
+  color: #fff;
+}
+
+/* Custom modal styling */
+.modal-content {
+  border-radius: 1rem;
+}
+.modal-header {
+  background: #3a86ff;
+  color: #fff;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+.modal-footer {
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
